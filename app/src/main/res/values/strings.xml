@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Izzy\'s Games</string>
+    <string name="player_turn">%1$s\'s Turn</string>
+    <string name="reset">Reset</string>
+    <string name="player_wins">%1$s WINS!</string>
+    <string name="draw_game">DRAW!</string>
+    <string name="play_again">Play again?</string>
+    <string name="multiplayer_only">Multiplayer Only</string>
+    <string name="local_player">Local Player</string>
+    <string name="connect_bluetooth">Connect Bluetooth</string>
+    <string name="player1_name">Player 1 Name</string>
+    <string name="player2_name">Player 2 Name</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="quit">Quit</string>
+    <string name="blank_names">Names cannot be blank</string>
+</resources>
