@@ -184,49 +184,41 @@ public class MainActivity extends AppCompatActivity {
         if (button1.getText().equals(button2.getText()) && button2.getText().equals(button3.getText()) && !button1.getText().equals("")) {
             winningToken = button1.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (button4.getText().equals(button5.getText()) && button5.getText().equals(button6.getText()) && !button4.getText().equals("")) {
             winningToken = button4.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (button7.getText().equals(button8.getText()) && button8.getText().equals(button9.getText()) && !button7.getText().equals("")) {
             winningToken = button7.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (button1.getText().equals(button4.getText()) && button4.getText().equals(button7.getText()) && !button1.getText().equals("")) {
             winningToken = button1.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (button2.getText().equals(button5.getText()) && button5.getText().equals(button8.getText()) && !button2.getText().equals("")) {
             winningToken = button2.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (button3.getText().equals(button6.getText()) && button6.getText().equals(button9.getText()) && !button3.getText().equals("")) {
             winningToken = button3.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (button1.getText().equals(button5.getText()) && button5.getText().equals(button9.getText()) && !button1.getText().equals("")) {
             winningToken = button1.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (button3.getText().equals(button5.getText()) && button5.getText().equals(button7.getText()) && !button3.getText().equals("")) {
             winningToken = button3.getText().toString();
             setNonPlayableBttns(false);
-//            winnerReset();
         }
 
         if (player1.getPlayerToken().equals(winningToken)) {
